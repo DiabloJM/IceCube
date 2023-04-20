@@ -1,6 +1,15 @@
 # Visual Studio 2015 user specific files
 .vs/
 
+# Mac OS X
+.DS_Store
+.DSStore?
+.AppleDouble
+.LSOverride
+.*
+# RiderLink Plugin
+Plugins//RiderLink/
+
 # Compiled Object files
 *.slo
 *.lo
