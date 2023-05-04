@@ -9,71 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b96bee-35f4-4941-b61b-ea2d81718b0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/BP/BP_GameModeMenu.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/BP/BP_Menu.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/BP/BP_Menu_Opciones.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/BP/BP_PlayerMenu.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/MainMenu.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Blood.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Blood_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Blood_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Ice-SVG.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Ice-SVG_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Ice-SVG_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Outline.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Outline_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Fonts/Amonk_Outline_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/5013997.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk Blood.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk Blood.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk Ice-SVG.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk Ice-SVG.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk Outline.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk Outline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Blood.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Blood_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Blood_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Ice-SVG.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Ice-SVG_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Ice-SVG_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Outline.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Outline_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Amonk_Outline_Font1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/BPW_LoadingScreen.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/BPW_MenuPrincipal.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/BPW_Opciones.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/BPW_Start.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Iceberg-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Iceberg-Italic.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Iceberg-Italic_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Iceberg.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Iceberg.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/Iceberg_Font.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/More Info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/ice-576352_640.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/pngimg_com_-_icicle_PNG96120.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Bishop/Widgets/Menu/shuriken.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Diablo/Sounds/Fireball.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Diablo/Sounds/Jump.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Diablo/Sounds/Lets_go_to_the_beach.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Diablo/Sounds/Melting.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Diablo/Sounds/Slide.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Splash/EdSplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Splash/EdSplash.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/HoloLens/Config/HoloLensEngine.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Pancho/BluePrints/BP_Projectile.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Pancho/BluePrints/IceSound.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Pancho/IceCharacter/Standing_1H_Magic_Attack_02.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Pancho/IceCharacter/throw.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Run.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/Actions/IA_Shoot.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IceCube/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IceCube/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Bishop/Bishop_Level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Bishop/Bishop_Level.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Diablo/Diablo_Level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Diablo/Diablo_Level.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Pancho/IceCharacter/BPAnimation_Pacman.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Pancho/IceCharacter/BPAnimation_Pacman.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Pancho/NivelPancho.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Pancho/NivelPancho.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Input/IMC_Default.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IceCube/IceCubeCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IceCube/IceCubeCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/IceCube/IceCubeCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IceCube/IceCubeCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,6 +175,8 @@
       <workItem from="1682487489965" duration="1824000" />
       <workItem from="1682525446780" duration="2632000" />
       <workItem from="1683168660404" duration="700000" />
+      <workItem from="1683170218573" duration="11015000" />
+      <workItem from="1683207776666" duration="347000" />
     </task>
     <servers />
   </component>

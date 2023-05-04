@@ -9,6 +9,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
+#include "K2Node_SpawnActorFromClass.h"
+#include "Components/ArrowComponent.h"
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -47,6 +49,9 @@ AIceCubeCharacter::AIceCubeCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	SpawnPoint = CreateDefaultSubobject<UArrowComponent>(TEXT("SpawnPoint"));
+	SpawnPoint->SetupAttachment(GetMesh(), USpringArmComponent::SocketName); 
+	
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
@@ -84,6 +89,9 @@ void AIceCubeCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 		//Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AIceCubeCharacter::Look);
 
+		//Disparo
+		EnhancedInputComponent->BindAction(ShootAction, ETriggerEvent::Started, this, &AIceCubeCharacter::Shoot);
+		
 	}
 
 }
@@ -105,6 +113,8 @@ void AIceCubeCharacter::Move(const FInputActionValue& Value)
 	
 		// add movement 
 		AddMovementInput(ForwardDirection, MovementVector.X);
+
+		
 	}
 }
 
@@ -112,6 +122,19 @@ void AIceCubeCharacter::Look(const FInputActionValue& Value)
 {
 
 }
+
+void AIceCubeCharacter::Shoot()
+{
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	
+		AnimInstance->Montage_Play(FireAnimation, 2.f);
+		
+	FVector SpawnLocation = GetActorLocation();
+	FRotator SpawnRotation = GetActorRotation();
+	GetWorld()->SpawnActor(Projectile, &SpawnLocation,&SpawnRotation);
+
+}
+
 
 
 
