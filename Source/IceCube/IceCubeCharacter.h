@@ -20,6 +20,9 @@ class AIceCubeCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Spawn, meta = (AllowPrivateAccess = "true"))
+	class UArrowComponent* SpawnPoint;
 	
 	/** MappingContext */
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
@@ -37,9 +40,29 @@ class AIceCubeCharacter : public ACharacter
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
 	class UInputAction* LookAction;
 
+	/** Shoot Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* ShootAction;
+
+	/** Run Input Action */
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input, meta = (AllowPrivateAccess = "true"))
+	class UInputAction* RunAction;
+
 public:
-	AIceCubeCharacter();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Sounds)
+	USoundBase* JumpSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Sounds)
+	USoundBase* FireSound;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Projectile)
+	TSubclassOf<AActor> Projectile;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animation)
+	UAnimMontage* FireAnimation;
+	
+	AIceCubeCharacter();
 
 protected:
 
@@ -48,7 +71,8 @@ protected:
 
 	/** Called for looking input */
 	void Look(const FInputActionValue& Value);
-			
+
+	void Shoot();
 
 protected:
 	// APawn interface
