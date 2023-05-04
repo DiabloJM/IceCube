@@ -11,7 +11,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "K2Node_SpawnActorFromClass.h"
 #include "Components/ArrowComponent.h"
-
+#include "Kismet/GameplayStatics.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AIceCubeCharacter
@@ -127,10 +127,11 @@ void AIceCubeCharacter::Shoot()
 {
 	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
 	
-		AnimInstance->Montage_Play(FireAnimation, 2.f);
-		
+	AnimInstance->Montage_Play(FireAnimation, 2.f);
+	
 	FVector SpawnLocation = GetActorLocation();
 	FRotator SpawnRotation = GetActorRotation();
+	UGameplayStatics::PlaySoundAtLocation(this, FireSound, SpawnLocation);
 	GetWorld()->SpawnActor(Projectile, &SpawnLocation,&SpawnRotation);
 
 }
