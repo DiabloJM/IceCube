@@ -9,14 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94b96bee-35f4-4941-b61b-ea2d81718b0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Pancho/Diablo_LevelClone.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.IceCube/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IceCube/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Octavio/Bullet/BP_FireBall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Octavio/Bullet/BP_FireBall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Diablo/Diablo_Level.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Diablo/Diablo_Level.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Octavio/Turret/BP_Turret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Octavio/Turret/BP_Turret.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Pancho/BluePrints/BP_Projectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Pancho/BluePrints/BP_Projectile.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Pancho/NivelPancho.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Pancho/NivelPancho.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/IceCube/IceCubeCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/IceCube/IceCubeCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Pancho/BluePrints/BP_CameraManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Pancho/BluePrints/BP_CameraManager.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +169,7 @@
       <workItem from="1683207776666" duration="347000" />
       <workItem from="1683210742229" duration="243000" />
       <workItem from="1683211320602" duration="974000" />
+      <workItem from="1683221953553" duration="714000" />
     </task>
     <servers />
   </component>
